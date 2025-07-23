@@ -1,10 +1,7 @@
 h1 {
-
-    background-color: aqua;
-
-    padding-left: 30px;
-
-    width: 5px;
-    animation: forwards;
-    transition: 1s;
+  background-color: aqua;
+  padding-left: 40px;
+  width: 20%;
+  transition: 1s;
+  align-content: end;
 }
