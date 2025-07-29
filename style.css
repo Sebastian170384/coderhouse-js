@@ -1,7 +1,33 @@
+/* Encabezado */
 h1 {
   background-color: aqua;
   padding-left: 40px;
-  width: 20%;
-  transition: 1s;
-  align-content: end;
+  width: fit-content; /* Mejor que un % fijo si el contenido es dinámico */
+  transition: all 1s ease; /* Mejora la transición */
+  margin: 20px auto; /* Centrado opcional si se desea */
+}
+
+/* Sección centrada */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Opcional si se quiere centrar verticalmente también */
+  padding: 20px;
+}
+
+/* Botón estilizado */
+button {
+  border: 1px solid blue;
+  border-radius: 25px;
+  background-color: greenyellow;
+  padding: 10px 20px; /* Mejor que padding-bottom: 0% */
+  font-weight: 900;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+button:hover {
+  background-color: limegreen;
+  color: white;
 }
